@@ -15,7 +15,7 @@ export default defineConfig({
       { text: '学习路线', link: '/guide/roadmap' },
       { text: '实验记录', link: '/hcia/eth-trunk' },
       { text: '项目实践', link: '/enterprise-network/campus-network' },
-      { text: 'GitHub', link: 'https://github.com/' }
+      { text: 'GitHub', link: 'https://github.com/dev-Finnnx/Finn-Network-Lab' }
     ],
     sidebar: {
       '/guide/': [{ text: '学习指南', items: [
@@ -30,9 +30,9 @@ export default defineConfig({
         { text: '中小企业园区网', link: '/enterprise-network/campus-network' }
       ] }]
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/dev-Finnnx/Finn-Network-Lab' }],
     search: { provider: 'local' },
-    editLink: { pattern: 'https://github.com/YOUR_USERNAME/Finn-Network-Lab/edit/main/docs/:path' },
+    editLink: { pattern: 'https://github.com/dev-Finnnx/Finn-Network-Labdev-Finnnx/Finn-Network-Lab/edit/main/docs/:path' },
     footer: { message: 'AI + Network + Communication', copyright: 'Copyright © 2026 Finn' }
   },
   markdown: { theme: { light: 'github-light', dark: 'github-dark' } },
