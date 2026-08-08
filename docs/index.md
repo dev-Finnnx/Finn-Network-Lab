@@ -10,7 +10,7 @@ const stats = [{ value: 'HCIA', label: '当前阶段' }, { value: '100', label: 
 
 我是 Finn，一名正在把人工智能、网络工程与通信技术连接起来的学生。这里记录我的 eNSP 实验、华为设备配置、企业网络设计和每一次故障排查。
 
-<div class="actions"><a class="VPButton medium brand" href="/Finn-Network-Lab/guide/roadmap">查看学习路线</a><a class="VPButton medium alt" href="/Finn-Network-Lab/hcia/eth-trunk">阅读首篇实验</a></div>
+<div class="actions"><a class="VPButton medium brand" href="/guide/roadmap">查看学习路线</a><a class="VPButton medium alt" href="/hcia/eth-trunk">阅读首篇实验</a></div>
 </div>
 
 <div class="stats-grid"><div v-for="stat in stats" :key="stat.label" class="stat-card"><strong>{{ stat.value }}</strong><span>{{ stat.label }}</span></div></div>
@@ -41,9 +41,9 @@ VLAN、Trunk、Eth-Trunk、STP、OSPF、VRRP、DHCP、ACL 与 NAT。
 
 | 类型 | 内容 | 状态 |
 | --- | --- | --- |
-| 实验 | [Eth-Trunk 链路聚合配置详解](/Finn-Network-Lab/hcia/eth-trunk) | ✅ 已完成 |
-| 项目 | [中小企业园区网络建设](/Finn-Network-Lab/enterprise-network/campus-network) | 🚧 Developing |
-| 方法 | [PC 无法访问服务器的排查流程](/Finn-Network-Lab/guide/troubleshooting) | 📝 持续整理 |
+| 实验 | [Eth-Trunk 链路聚合配置详解](/hcia/eth-trunk) | ✅ 已完成 |
+| 项目 | [中小企业园区网络建设](/enterprise-network/campus-network) | 🚧 Developing |
+| 方法 | [PC 无法访问服务器的排查流程](/guide/troubleshooting) | 📝 持续整理 |
 
 > 每一次实验都要留下配置、验证结果和问题复盘。欢迎通过 GitHub Issue 交流。
 
