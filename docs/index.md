@@ -10,7 +10,7 @@ const stats = [{ value: 'HCIA', label: '当前阶段' }, { value: '100', label: 
 
 我是 Finn，一名正在把人工智能、网络工程与通信技术连接起来的学生。这里记录我的 eNSP 实验、华为设备配置、企业网络设计和每一次故障排查。
 
-<div class="actions"><a class="VPButton medium brand" href="/guide/roadmap">查看学习路线</a><a class="VPButton medium alt" href="/hcia/eth-trunk">阅读首篇实验</a></div>
+<div class="actions"><a class="VPButton medium brand" href="/Finn-Network-Lab/guide/roadmap">查看学习路线</a><a class="VPButton medium alt" href="/Finn-Network-Lab/hcia/eth-trunk">阅读首篇实验</a></div>
 </div>
 
 <div class="stats-grid"><div v-for="stat in stats" :key="stat.label" class="stat-card"><strong>{{ stat.value }}</strong><span>{{ stat.label }}</span></div></div>
