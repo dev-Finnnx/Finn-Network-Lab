@@ -1,0 +1,17 @@
+{
+  "name": "finn-network-lab",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.5",
+  "description": "Finn Network Lab：从 HCIA 到 HCIE 的网络工程师成长记录",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
+
