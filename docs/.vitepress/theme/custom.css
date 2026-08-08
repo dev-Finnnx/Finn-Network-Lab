@@ -1,0 +1,8 @@
+:root { --vp-c-brand-1: #1677ff; --vp-c-brand-2: #4096ff; --vp-c-brand-3: #0958d9; --vp-c-bg-soft: #f5f9ff; }
+.VPHome .VPHero .name { background: linear-gradient(120deg, #0958d9 20%, #14b8a6 80%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.VPHome .VPFeature { border-radius: 14px; transition: transform .2s ease, box-shadow .2s ease; }
+.VPHome .VPFeature:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(22,119,255,.1); }
+.progress { height: 8px; background: #e8f1ff; border-radius: 99px; overflow: hidden; margin: 8px 0 18px; }
+.progress > span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #1677ff, #14b8a6); }
+.status { color: #14b8a6; font-weight: 600; }
+
