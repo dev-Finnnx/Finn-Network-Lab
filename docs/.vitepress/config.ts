@@ -32,7 +32,7 @@ export default defineConfig({
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/dev-Finnnx/Finn-Network-Lab' }],
     search: { provider: 'local' },
-    editLink: { pattern: 'https://github.com/dev-Finnnx/Finn-Network-Labdev-Finnnx/Finn-Network-Lab/edit/main/docs/:path' },
+    editLink: { pattern: 'https://github.com/dev-Finnnx/Finn-Network-Lab/edit/main/docs/:path' },
     footer: { message: 'AI + Network + Communication', copyright: 'Copyright © 2026 Finn' }
   },
   markdown: { theme: { light: 'github-light', dark: 'github-dark' } },
