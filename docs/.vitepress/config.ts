@@ -15,7 +15,7 @@ export default defineConfig({
       { text: '学习路线', link: '/guide/roadmap' },
       { text: '实验记录', link: '/hcia/eth-trunk' },
       { text: '项目实践', link: '/enterprise-network/campus-network' },
-      { text: 'GitHub', link: 'https://github.com/dev-Finnnx/Finn-Network-Lab' }
+      { text: 'GitHub', link: 'https://github.com/' }
     ],
     sidebar: {
       '/guide/': [{ text: '学习指南', items: [
@@ -24,15 +24,16 @@ export default defineConfig({
         { text: '故障排查方法', link: '/guide/troubleshooting' }
       ] }],
       '/hcia/': [{ text: 'HCIA 实验', items: [
-        { text: 'Eth-Trunk 链路聚合', link: '/hcia/eth-trunk' }
+        { text: 'Eth-Trunk 链路聚合', link: '/hcia/eth-trunk' },
+        { text: 'GRE Tunnel 跨网段通信', link: '/hcia/gre-tunnel' }
       ] }],
       '/enterprise-network/': [{ text: '企业网络', items: [
         { text: '中小企业园区网', link: '/enterprise-network/campus-network' }
       ] }]
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/dev-Finnnx/Finn-Network-Lab' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/' }],
     search: { provider: 'local' },
-    editLink: { pattern: 'https://github.com/dev-Finnnx/Finn-Network-Lab/edit/main/docs/:path' },
+    editLink: { pattern: 'https://github.com/YOUR_USERNAME/Finn-Network-Lab/edit/main/docs/:path' },
     footer: { message: 'AI + Network + Communication', copyright: 'Copyright © 2026 Finn' }
   },
   markdown: { theme: { light: 'github-light', dark: 'github-dark' } },
